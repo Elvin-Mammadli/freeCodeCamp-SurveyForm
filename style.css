@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient( 
+    115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+h1#title {
+  text-align: center;
+  margin-top: 2.5rem;
+  color: white;
+}
+
+p#description {
+  text-align: center;
+  margin: 1rem 0;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: white;
+}
+
+form#survey-form {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(27, 27, 50, 0.8);
+  color: white;
+  padding: 3rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+label {
+  margin-bottom: .5rem;
+}
+
+#name, #email, #number {
+  padding: .5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+select#dropdown {
+  padding: .5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+
+}
+
+#radio-head {
+  margin-bottom: 0.5rem;
+}
+
+#dropdown2 {
+  margin: 2rem 0 0.5rem 0;
+}
+
+#most-like {
+  padding: .5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+#checkbox2 {
+  margin-bottom: .5rem;
+}
+
+#any-comments {
+  margin: 2rem 0 0.5rem 0;
+}
+
+#textarea {
+  height: 200px;
+  padding: 1rem .7rem;
+}
+
+::placeholder {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+button#submit {
+  border-radius: 2px;
+  background-color: #37af65;
+  padding: 0.75rem;
+  color: white;
+  font-size: inherit;
+  font-family: inherit;
+  margin-top: 2rem;
+  border: none;
+}
